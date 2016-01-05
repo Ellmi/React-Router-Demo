@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "react-router": "2.0.0-rc2",
+    "history": "^2.0.0-rc1",
+    "babel": "^5.4.7",
+    "react": "^0.14.0",
+    "express": "^4.13.3",
+    "express-urlrewrite": "^1.2.0"
+  }
+}
