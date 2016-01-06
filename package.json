@@ -1,10 +1,19 @@
 {
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "jquery": "^2.1.4",
     "react-router": "2.0.0-rc2",
-    "history": "^2.0.0-rc1",
-    "babel": "^5.4.7",
     "react": "^0.14.0",
     "express": "^4.13.3",
-    "express-urlrewrite": "^1.2.0"
+    "browserify": "^11.0.1",
+    "vinyl-source-stream": "^1.1.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-shell": "^0.4.2",
+    "reactify": "^1.1.1"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
   }
 }
