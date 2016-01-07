@@ -1,17 +1,7 @@
 var $ = require('jquery');
 var React = require('react');
-//import React from 'react'
-//import $ from 'jquery'
-var CASABlogsApp = React.createClass({
+var CASABlogsApp = require('./components/casa-blogs-app.jsx');
 
-    render: function () {
-        return (
-            <div>
-                Hello world
-            </div>
-        )
-    }
-});
 $(function() {
-    React.render(<CASABlogsApp />, document.body);
+    React.render(<CASABlogsApp />, document.getElementById('container'));
 });
