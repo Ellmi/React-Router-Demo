@@ -25,9 +25,6 @@ module.exports = React.createClass({
             case '/blogs': Child = Blogs; break;
             default:      Child = Home;
         }
-        if(this.state.route === '/about'){
-            Child = About;
-        }
         return (
             <div>
                 <Child/>
